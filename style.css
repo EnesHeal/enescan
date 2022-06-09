@@ -79,7 +79,7 @@ html {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
-    margin-top: 135px;
+    margin-top: 150px;
     margin-left: 275px;
     line-height: inherit;
     opacity: 70%;
@@ -101,21 +101,16 @@ html {
     
 }
 
-.status {
+
+.statusdc {
     position: absolute;
-    margin-top: 225px;
     margin-left: 278px;
+    margin-top: 230px;
+    font-size: 14px;
     opacity: 70%;
 }
 
-.statusdc {
-    font-size: 15px;
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 26px;
-    opacity: 70%;
-    max-width: 44rem;
-}
+
 
 .projeler {
     font-size: 25px;
@@ -148,6 +143,7 @@ html {
     font-weight: 100;
     font-family: 'Poppins';
     text-decoration: none;
+    margin-top: -25px;
     
 }
 .proje-right img {
@@ -155,7 +151,7 @@ html {
     padding: 20px 0px;
     position: absolute;
     margin-left: 680px;
-    margin-top: 10px;
+    margin-top: -5px;
     
 }
 
@@ -186,7 +182,7 @@ html {
  .starcw {
      position: absolute;
      margin-left: 788px;
-     margin-top: -14px;
+     margin-top: -45px;
      opacity: 100%;
  }
 
@@ -225,7 +221,7 @@ html {
     font-family: 'Poppins';
     text-decoration: none;
     opacity: 70%;
-    
+    margin-top: -25px;
 }
 
 
@@ -234,7 +230,7 @@ html {
     padding: 20px 0px;
     position: absolute;
     margin-left: 680px;
-    margin-top: 10px;
+    margin-top: -10px;
     
 }
 
@@ -283,7 +279,7 @@ html {
     font-family: 'Poppins';
     text-decoration: none;
     opacity: 70%;
-    
+    margin-top: -25px;
 }
 
 
@@ -292,7 +288,7 @@ html {
     padding: 20px 0px;
     position: absolute;
     margin-left: 680px;
-    margin-top: 10px;
+    margin-top: -10px;
     
 }
 
@@ -340,7 +336,7 @@ html {
     font-family: 'Poppins';
     text-decoration: none;
     opacity: 70%;
-    
+    margin-top: -25px;
 }
 
 
@@ -349,7 +345,7 @@ html {
     padding: 20px 0px;
     position: absolute;
     margin-left: 680px;
-    margin-top: 10px;
+    margin-top: -10px;
     
 }
 
@@ -413,6 +409,7 @@ html {
     font-family: 'Poppins';
     text-decoration: none;
     opacity: 70%;
+    margin-top: -15px;
     
 }
 
@@ -422,7 +419,7 @@ html {
     padding: 20px 0px;
     position: absolute;
     margin-left: 670px;
-    margin-top: 10px;
+    margin-top: 5px;
     
 }
 
@@ -468,7 +465,7 @@ html {
     font-family: 'Poppins';
     text-decoration: none;
     opacity: 100%;
-    
+    margin-top: -15px;
 }
 
 
@@ -478,7 +475,7 @@ html {
     position: absolute;
     margin-left: 680px;
     margin-top: 10px;
-    
+    margin-top: -5px;
 }
 
 .instagram-left {

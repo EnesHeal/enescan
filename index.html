@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" ntegrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	<link rel="icon" href="assets/images/logo.gif" type="image/x-icon" />
     <meta property="og:image" content="https://cdn.discordapp.com/attachments/964923621854285895/972433354676899880/a_7f752cdaa775597ad573e32df357ac22.gif">
@@ -44,10 +45,12 @@
             There is 1 project that I am currently developing. I continue my software life as a front-end developer.</p>
     </div>
    
-    <div class="status">
-        <i class="fa-brands fa-discord"></i>
-        <div class="statusdc"><p>dnd</p></div><!--Static-->
-    </div>
+    <div class="statusdc"
+    <p id="status" class="stat-text mt-2 animate__animated animate__flash">
+        <span id="statusContent"> <span class="stat-text w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Loading.....</span>
+    </p>
+</div>
+
     <div class="saat">   
        <i class="fa-regular fa-clock-three"></i> 
        <div class="saatt"> <script type="text/javascript"> var css_file=document.createElement("link"); css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href","https://s.bookcdn.com//css/cl/bw-cl-sm2.css?v=0.0.1"); document.getElementsByTagName("head")[0].appendChild(css_file); </script> <div id="tw_25_671235033"><div style="width:200px; height:px; margin: 0 auto;"><a href="https://bookeder.com/time/konya-11234">Loading..</a><br/></div></div> <script type="text/javascript"> function setWidgetData_671235033(data){ if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = ''; var params = data.results[i]; objMainBlock = document.getElementById('tw_'+params.widget_type+'_'+params.widget_id); if(objMainBlock !== null) objMainBlock.innerHTML = params.html_code; } } } var clock_timer_671235033 = -1; widgetSrc = "https://widgets.booked.net/time/info?ver=2;domid=765;type=25;id=671235033;scode=124;city_id=11234;wlangid=21;mode=1;details=0;background=ffffff;border_color=ffffff;color=686868;add_background=ffffff;add_color=333333;head_color=ffffff;border=1;transparent=0"; var widgetUrl = location.href; widgetSrc += '&ref=' + widgetUrl; var wstrackId = ""; if (wstrackId) { widgetSrc += ';wstrackId=' + wstrackId + ';' } var timeBookedScript = document.createElement("script"); timeBookedScript.setAttribute("type", "text/javascript"); timeBookedScript.src = widgetSrc; document.body.appendChild(timeBookedScript); </script></div>
@@ -222,7 +225,7 @@
 
 <script src='assets/js/goTop.js'></script>
 <script src='assets/js/changing-text.js'></script>
-
+<script src="assets/js/lanyard.js"></script>
 
 
 </body>
